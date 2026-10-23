@@ -64,7 +64,32 @@ graph TD
 ## 🧹 6. Data Cleaning & Preparation
 Before analysis, raw binary indicators were standardized to improve reporting clarity in SQL and Power BI:
 1. **Schema Modification**: Altered columns IsActiveMember and HasCrCard from numeric INT flags to VARCHAR(10) categorical text.
+```sql
+ALTER TABLE bank_churn
+MODIFY IsActiveMember VARCHAR(10),
+MODIFY HasCrCard VARCHAR(10);
+```
 2. **Value Mapping**:
-* **IsActiveMember**:Converted 1 to 'Yes' and 0 to 'No'.
-* **HasCrCard**: Converted 1 to 'Yes' and 0 to 'No'[cite: 1].
-3. **Data Quality Audit**: Verified zero duplicate CustomerId entries and confirmed no missing values across critical financial and demographic fields[cite: 1].
+    * **IsActiveMember**:Converted 1 to 'Yes' and 0 to 'No'.
+    * **HasCrCard**: Converted 1 to 'Yes' and 0 to 'No'
+```sql
+UPDATE bank_churn
+SET IsActiveMember = 'Yes'
+WHERE IsActiveMember = '1';
+
+UPDATE bank_churn
+SET IsActiveMember = 'No'
+WHERE IsActiveMember = '0';
+
+UPDATE bank_churn
+SET HasCrCard = 'Yes'
+WHERE HasCrCard = '1';
+
+UPDATE bank_churn
+SET HasCrCard = 'No'
+WHERE HasCrCard = '0';
+```
+3. **Data Quality Audit**: Verified zero duplicate CustomerId entries and confirmed no missing values across critical financial and demographic fields
+```sql
+SELECT COUNT(DISTINCT CustomerId) FROM bank_churn;
+```
