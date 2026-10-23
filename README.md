@@ -9,25 +9,6 @@ An end-to-end data analytics project investigating customer attrition for a reta
 
 ---
 
-## 📋 Table of Contents
-1. [Project Overview & Business Problem](#-project-overview--business-problem)
-2. [Project Objectives](#-project-objectives)
-3. [Tools & Technologies Used](#-tools--technologies-used)
-4. [Dataset Description](#-dataset-description)
-5. [Project Workflow](#-project-workflow)
-6. [Data Cleaning & Preparation](#-data-cleaning--preparation)
-7. [SQL Analysis & Key Questions Answered](#-sql-analysis--key-questions-answered)
-8. [Key Performance Indicators (KPIs)](#-key-performance-indicators-kpis)
-9. [Power BI Dashboard Preview](#-power-bi-dashboard-preview)
-10. [Key Findings & Business Insights](#-key-findings--business-insights)
-11. [Strategic Recommendations](#-strategic-recommendations)
-12. [Challenges & Limitations](#-challenges--limitations)
-13. [Repository Structure & Navigation](#-repository-structure--navigation)
-14. [How to Reproduce This Analysis](#-how-to-reproduce-this-analysis)
-15. [Author & Acknowledgments](#-author--acknowledgments)
-
----
-
 ## 🎯 1. Project Overview & Business Problem
 
 Customer acquisition cost in the banking sector is significantly higher than customer retention. Leadership identified an escalating attrition trend where profitable accounts were closing their accounts unexpectedly. 
@@ -76,3 +57,13 @@ graph TD
     B -->|Data Cleaning & Type Casting| C[SQL Exploratory Data Analysis]
     C -->|Aggregations & KPI Queries| D[Power BI Data Model & DAX]
     D -->|Interactive Executive Dashboard| E[Actionable Insights & Recommendations]
+
+---
+
+## 🧹 6. Data Cleaning & Preparation
+Before analysis, raw binary indicators were standardized to improve reporting clarity in SQL and Power BI:
+1. **Schema Modification**: Altered columns IsActiveMember and HasCrCard from numeric INT flags to VARCHAR(10) categorical text.
+2. **Value Mapping**:
+* **IsActiveMember**:Converted 1 to 'Yes' and 0 to 'No'.
+* **HasCrCard**: Converted 1 to 'Yes' and 0 to 'No'[cite: 1].
+3. **Data Quality Audit**: Verified zero duplicate CustomerId entries and confirmed no missing values across critical financial and demographic fields[cite: 1].
