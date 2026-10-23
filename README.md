@@ -259,3 +259,22 @@ ORDER BY credit_score_tier;
 | Overall Churn Rate | 20.37% | Primary health metric for customer retention. |
 | Avg Balance (Churned) | $91,108.54 | $91,108.54 | Financial exposure of departing accounts. | 
 
+--- 
+
+## 🖼️ 9. Power BI Dashboard Preview
+Interactive Dashboard View
+
+<img width="770" height="559" alt="image" src="https://github.com/user-attachments/assets/9cdf4c07-8062-4e35-bab4-6c4db221698e" />
+
+---
+
+## 💡 10. Key Findings & Business Insights
+1. **Germany Outlier Risk**: Despite having equal customer volume to Spain (~2.5K), Germany accounts for **814 churned customers** (**32.44% churn rate**), nearly double the churn rate of France and Spain.
+
+2. **Product Over-Concentration Trap**: Customers holding 3 products have an alarming **82.71% churn rate**, and those with 4 products experience **100%** churn. This indicates structural failure or poor onboarding in bundled advanced services.
+  
+3. **Age Cohort Vulnerability**: Attrition peaks sharply in the **50–59 age bracket**, reaching **62.95%** for females and **49.55%** for males, representing a critical demographic bleeding high-net-worth senior clients.
+   
+4. **Activity Status Protection**: Inactive members account for the vast majority of customer loss, proving that proactive engagement campaigns directly mitigate churn risk.  
+
+---
