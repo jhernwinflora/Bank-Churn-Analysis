@@ -298,8 +298,8 @@ Interactive Dashboard View
 --- 
 
 ## 📂 13. Repository Structure & Navigation
-* data/raw/: Contains the original unedited [Bank_Churn.csv](./Bank_Churn.csv) dataset
+* [Bank_Churn.csv](./Bank_Churn.csv): Contains the original unedited [Bank_Churn.csv](./Bank_Churn.csv) dataset
 
-* sql/: Contains modular SQL scripts for data cleaning and analytical queries [bank_churn.sql](./bank_churn.sql)
+* [bank_churn.sql](./bank_churn.sql): Contains modular SQL scripts for data cleaning and analytical queries.
 
-* powerbi/: Contains dashboard screenshots and the .pbix report file [bank_churn_dax_and_dashboard.pbix](./bank_churn_dax_and_dashboard.pbix)
+* [bank_churn_dax_and_dashboard.pbix](./bank_churn_dax_and_dashboard.pbix): Contains dashboard screenshots and the .pbix report file.
