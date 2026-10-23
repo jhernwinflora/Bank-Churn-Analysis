@@ -257,7 +257,7 @@ ORDER BY credit_score_tier;
 | Total Customers | 10,000 | Baseline active customer base scale. |
 | Churned Customers | 2,037 | Total customer loss volume. |
 | Overall Churn Rate | 20.37% | Primary health metric for customer retention. |
-| Avg Balance (Churned) | $91,108.54 | $91,108.54 | Financial exposure of departing accounts. | 
+| Avg Balance (Churned) | $91,108.54 | Financial exposure of departing accounts. | 
 
 --- 
 
