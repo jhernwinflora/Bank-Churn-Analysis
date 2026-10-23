@@ -57,6 +57,7 @@ graph TD
     B -->|Data Cleaning & Type Casting| C[SQL Exploratory Data Analysis]
     C -->|Aggregations & KPI Queries| D[Power BI Data Model & DAX]
     D -->|Interactive Executive Dashboard| E[Actionable Insights & Recommendations]
+```
 
 ---
 
