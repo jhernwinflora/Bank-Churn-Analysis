@@ -318,6 +318,6 @@ Interactive Dashboard View
 
 * Aspiring Data Analyst | BS Mathematics Graduate
 
-* GitHub Profile: https://github.com/jhernwinflora
+* [GitHub Profile](https://github.com/jhernwinflora)
   
-* LinkedIn Profile: https://www.linkedin.com/in/jhernwin-flora-8a972a3a7/?isSelfProfile=true
+* [LinkedIn Profile](https://www.linkedin.com/in/jhernwin-flora-8a972a3a7/?isSelfProfile=true)
