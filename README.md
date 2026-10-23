@@ -303,3 +303,19 @@ Interactive Dashboard View
 * [bank_churn.sql](./bank_churn.sql): Contains modular SQL scripts for data cleaning and analytical queries.
 
 * [bank_churn_dax_and_dashboard.pbix](./bank_churn_dax_and_dashboard.pbix): Contains dashboard screenshots and the .pbix report file.
+
+## ⚙️ 14. How to Reproduce This Analysis
+1. **Database Setup**: Clone the repository and import sql/data_cleaning.sql and sql/exploratory_analysis.sql into MySQL Workbench.
+
+2. **Power BI Exploration**: Open powerbi/bank_churn_dashboard.pbix in Power BI Desktop to explore slicers, filters, and DAX measures.
+
+3. **Verification**: Run the verification queries in sql/ to cross-check KPIs against the Power BI summary cards.
+
+---
+
+## 👤 15. Author & Acknowledgments
+* Jhernwin E. Flora
+
+* Aspiring Data Analyst | BS Mathematics Graduate
+
+* GitHub Profile  | LinkedIn Profile https://www.linkedin.com/in/jhernwin-flora-8a972a3a7/?isSelfProfile=true
