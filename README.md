@@ -280,10 +280,26 @@ Interactive Dashboard View
 ---
 
 ## 🚀 11. Strategic Recommendations
-Deploy German Market Intervention: Investigate localized customer service quality, competitive product offerings, and fee structures in Germany to reverse the 32.4% attrition spike.
+* **Deploy German Market Intervention**: Investigate localized customer service quality, competitive product offerings, and fee structures in Germany to reverse the 32.4% attrition spike.
 
-Restructure Multi-Product Bundles: Audit products 3 and 4 (e.g., specialized investment or mortgage add-ons) to resolve usability friction or unexpected fee disclosures
+* **Restructure Multi-Product Bundles**: Audit products 3 and 4 (e.g., specialized investment or mortgage add-ons) to resolve usability friction or unexpected fee disclosures.
 
-Senior Client Retention Taskforce: Establish dedicated relationship management for the 50–59 age demographic, offering personalized financial advisory services
+* **Senior Client Retention Taskforce**: Establish dedicated relationship management for the 50–59 age demographic, offering personalized financial advisory services.
 
-Automated Re-engagement Triggers: Set up CRM alerts for customers who become inactive for >90 days to deliver targeted incentives before account closure[cite: 1, 3].
+* **Automated Re-engagement Triggers**: Set up CRM alerts for customers who become inactive for >90 days to deliver targeted incentives before account closure.
+
+--- 
+
+## ⚠️ 12. Challenges & Limitations
+* **Cross-Sectional Data**: The dataset lacks historical longitudinal timestamps, preventing exact survival analysis or time-to-churn modeling.
+
+* **Causality Limitations**: While strong correlations exist (e.g., age 50–59 and product count), qualitative exit-interview feedback would enrich the root-cause analysis.
+
+--- 
+
+## 📂 13. Repository Structure & Navigation
+* data/raw/: Contains the original unedited [Bank_Churn.csv](./Bank_Churn.csv) dataset
+
+* sql/: Contains modular SQL scripts for data cleaning and analytical queries [bank_churn.sql](./bank_churn.sql)
+
+* powerbi/: Contains dashboard screenshots and the .pbix report file [bank_churn_dax_and_dashboard.pbix](./bank_churn_dax_and_dashboard.pbix)
